@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family:  Arial, Helvetica, sans-serif;
+  color: #40514e;
+}
+
+
+h1 {
+  font-family: 'Montez', cursive;
+  margin: 50px auto 20px auto;
+  font-size: 4.25rem;
+  color: #71c9ce;
+  line-height: 0.83;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66bfbf;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+p {
+  line-height: 2
+}
+
+.ad {
+  text-align: left;
+}
+
+hr {
+  border: dotted grey 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 35px auto;
+}
+
+a {
+  color: #00acac;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black
+}
+
+.top-container {
+  background-color: #e3fdfd;
+  position: relative;
+  padding-top: 10px
+}
+
+.experience-element {
+  margin-top: 50px;
+}
+
+.experience-element ul {
+  list-style-type: none;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.experience-element ul li {
+  margin-bottom: 10px;
+}
+
+
+
+.mountain {
+  height: 350px;
+  width: 100%
+}
+
+.left-cloud {
+  position: absolute;
+  bottom: 400px;
+  left: 350px;
+  height: 100px;
+}
+
+.mini-description {
+  margin-left: 5px;
+  color: darkgray;
+}
+
+.right-cloud {
+  position: absolute;
+  bottom: 400px;
+  right: 350px;
+  height: 100px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 70px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-set-para {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.coding-gif {
+  width: 20%;
+  float: left;
+  margin-right: 30px
+}
+
+.coding-cloud {
+  width: 20%;
+  float: left;
+  margin-right: 30px
+}
+
+.programming-circle {
+  width: 20%;
+  float: right;
+  margin-left: 20px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.bottom-container a {
+  font-size: 1em;
+  color: white;
+}
+
+.bold-text{
+  font-weight: bold;
+  line-height: normal;
+}
+
+.contact-info {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #66bfbf;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.adjust-heading {
+  margin-top: 50px;
+}
+
+.adjust-card {
+margin: 35px 35px 35px 35px
+}
+
+
+.btn:hover {
+  background: #33e8c4;
+  text-decoration: none;
+}
+
+.contact-message {
+  width: 50%;
+  margin: 40px auto 60px
+}
+
+.round-image {
+  height: 80px;
+  width: 80px;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.75rem;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .experience-element ul {
+   margin-left: 10px;
+   margin-right: 10px;
+  }
+
+  .adjust-card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+  }
+
+}
+
+@media only screen and (max-width: 1430px) {
+
+  .left-cloud {
+    display: none;
+  }
+  
+  .right-cloud {
+    display: none;
+  }
+  
+}
